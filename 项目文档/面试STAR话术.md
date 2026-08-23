@@ -1,13 +1,3 @@
----
-AIGC:
-    Label: "1"
-    ContentProducer: 001191110102MACQD9K64018705
-    ProduceID: 604070565650330_0/project_7671971085994279208-files/项目收尾/面试STAR话术.md
-    ReservedCode1: ""
-    ContentPropagator: 001191110102MACQD9K64028705
-    PropagateID: 604070565650330#1786891247282
-    ReservedCode2: ""
----
 # 面试STAR话术手册
 ## 智能库存分析与补货模拟系统 · 供应链/运营岗专用
 

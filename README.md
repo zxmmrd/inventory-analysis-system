@@ -1,13 +1,3 @@
----
-AIGC:
-    Label: "1"
-    ContentProducer: 001191110102MACQD9K64018705
-    ProduceID: 604070565650330_0/project_7671971085994279208-files/项目收尾/README.md
-    ReservedCode1: ""
-    ContentPropagator: 001191110102MACQD9K64028705
-    PropagateID: 604070565650330#1786889037227
-    ReservedCode2: ""
----
 # 智能库存分析与补货模拟系统
 
 > 基于899个SKU模拟订单数据（参考公开数据集特征构建，用于方法验证），构建从数据分析、库存策略优化到智能补货模拟 + RAG问答Agent的端到端库存管理系统。
