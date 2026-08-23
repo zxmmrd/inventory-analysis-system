@@ -1,0 +1,80 @@
+﻿# PythonProject1 依赖清单（pip freeze）
+# 以下为各包及其用途说明
+altair==6.2.2  # 声明式统计可视化库，常用于 Streamlit 图表
+anyio==4.14.2  # 异步 I/O 框架，Starlette/Uvicorn 底层依赖
+asttokens==3.0.2  # 获取 Python AST 节点对应的源码文本，IPython 调试用
+attrs==26.1.0  # 简化类定义的装饰器/工具包，减少样板代码
+blinker==1.9.0  # 轻量级信号/事件分发库，Flask/Streamlit 内部使用
+certifi==2026.7.22  # Mozilla CA 证书包，用于 HTTPS 请求验证
+charset-normalizer==3.4.9  # 字符编码检测与转换，requests 依赖
+click==8.4.2  # 命令行工具构建库，Streamlit/Uvicorn 等均依赖
+colorama==0.4.6  # Windows 终端彩色输出支持
+comm==0.2.3  # Jupyter 内核通信协议实现
+contourpy==1.3.3  # 等高线计算库，matplotlib 依赖
+cycler==0.12.1  # matplotlib 属性循环器，控制颜色/线型循环
+debugpy==1.8.21  # Python 调试器，VSCode/PyCharm 远程调试用
+et_xmlfile==2.0.0  # XML 文件增量解析，openpyxl 依赖
+executing==2.2.1  # 获取当前执行表达式/语句的 AST，IPython 堆栈用
+fonttools==4.63.0  # 字体文件操作库，matplotlib 字体渲染依赖
+h11==0.16.0  # HTTP/1.1 协议库，Uvicorn 底层依赖
+httptools==0.8.0  # HTTP 请求/响应解析加速库，Uvicorn 可选依赖
+idna==3.18  # 国际化域名（IDNA）编码/解码，requests/urllib3 依赖
+ipykernel==7.3.0  # Jupyter 内核的 Python 实现，提供交互式计算环境
+ipython==9.16.1  # 增强型 Python 交互式 Shell，IPython 内核核心
+ipython_pygments_lexers==1.1.1  # IPython 专用的 Pygments 语法高亮词法分析器
+itsdangerous==2.2.0  # 数据签名/序列化，Flask 会话安全依赖
+jedi==0.20.0  # 自动补全/静态分析引擎，IPython 代码补全用
+Jinja2==3.1.6  # 模板引擎，Flask/Streamlit 页面渲染依赖
+jsonschema==4.26.0  # JSON Schema 校验器，Streamlit 组件配置校验
+jsonschema-specifications==2025.9.1  # JSON Schema 规范元数据
+jupyter_client==8.9.1  # Jupyter 内核客户端协议，启动/通信内核用
+jupyter_core==5.9.1  # Jupyter 核心基础设施，内核发现/配置管理
+kiwisolver==1.5.0  # 高效约束求解器，matplotlib 布局计算依赖
+MarkupSafe==3.0.3  # HTML/XML 安全转义，Jinja2 模板渲染依赖
+matplotlib==3.11.1  # 最常用的 Python 2D 绘图库
+matplotlib-inline==0.2.2  # 在 IPython 中内联显示 matplotlib 图表
+narwhals==2.24.0  # 跨 DataFrame 库兼容层（pandas/polars 等统一接口）
+nest-asyncio2==1.7.2  # 在已有事件循环中嵌套运行 asyncio，Jupyter 兼容用
+numpy==2.5.2  # 科学计算核心库，提供多维数组与数学函数
+numpy-typing-compat==20260602.2.5  # numpy 类型提示兼容性存根
+openpyxl==3.1.5  # Excel .xlsx 文件读写库
+optype==0.18.0  # 类型推断与优化，pandas 内部依赖
+packaging==26.3  # 包版本解析/比较/标记工具
+pandas==3.0.5  # 数据分析核心库，提供 DataFrame/Series 结构
+pandas-stubs==3.0.5.260730  # pandas 类型提示存根
+parso==0.8.7  # Python 解析器，jedi 底层依赖
+pillow==12.3.0  # Python 图像处理库，matplotlib 图片渲染依赖
+platformdirs==4.11.1  # 跨平台应用目录路径管理
+plotly==6.9.0  # 交互式图表库，支持 Streamlit 集成
+prompt_toolkit==3.0.53  # 交互式命令行 UI 工具包，IPython 终端用
+protobuf==7.35.1  # Google Protocol Buffers 序列化格式
+psutil==7.2.2  # 系统/进程资源监控库（CPU、内存、磁盘等）
+pure_eval==0.2.3  # 安全评估 Python 表达式，IPython 调试用
+pyarrow==24.0.0  # Apache Arrow 列式内存格式，高效数据交换/IO
+pydeck==0.9.3  # 基于 deck.gl 的 3D 地理空间可视化库，Streamlit 支持
+Pygments==2.20.0  # 代码语法高亮渲染库
+pyparsing==3.3.2  # 通用文本解析库，matplotlib 配置解析依赖
+python-dateutil==2.9.0.post0  # datetime 扩展库，pandas 时间处理依赖
+python-multipart==0.0.32  # HTTP multipart 表单解析，Starlette 文件上传用
+pyzmq==27.1.0  # ZeroMQ 消息队列绑定，Jupyter 内核通信基础
+referencing==0.37.0  # JSON Schema 引用解析库
+requests==2.34.2  # HTTP 请求库，简洁易用的网络请求工具
+rpds-py==2026.6.3  # Rust 实现的持久化数据结构，jsonschema 底层加速
+scipy==1.18.0  # 科学计算库，统计/优化/信号处理等
+scipy-stubs==1.18.0.1  # scipy 类型提示存根
+seaborn==0.13.2  # 基于 matplotlib 的高级统计图表库，绘图更简洁
+six==1.17.0  # Python 2/3 兼容性工具库
+stack-data==0.6.3  # 提取栈帧上下文信息，IPython 异常回溯用
+starlette==1.3.1  # 轻量级 ASGI Web 框架，Streamlit 底层依赖
+streamlit==1.61.1  # 快速构建数据应用的前端框架，核心库
+tenacity==9.1.4  # 重试/容错装饰器库
+toml==0.10.2  # TOML 配置文件解析库
+tornado==6.5.8  # 异步 Web 框架/网络库，Streamlit 实时通信用
+traitlets==5.16.1  # 配置/类型化属性系统，Jupyter 组件配置用
+typing_extensions==4.16.0  # typing 模块回溯兼容扩展
+tzdata==2026.3  # IANA 时区数据库，pandas 时区处理依赖
+urllib3==2.7.0  # 功能完善的 HTTP 客户端库，requests 底层依赖
+uvicorn==0.52.1  # 轻量级 ASGI 服务器，运行 Starlette/Streamlit 用
+watchdog==6.0.0  # 文件系统事件监控库，Streamlit 热重载用
+wcwidth==0.8.2  # 终端字符宽度计算，支持中日韩字符对齐
+websockets==16.1.1  # WebSocket 协议库，实时通信场景用
