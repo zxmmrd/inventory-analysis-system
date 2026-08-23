@@ -93,7 +93,7 @@ graph TD
 │   ├── df_cleaned.pkl            # 清洗后数据
 │   └── train.csv                 # 原始数据
 ├── 库存问答Agent/                 # Coze RAG Agent 配置与知识库
-├── 项目文档/                      # 简历写法指南、STAR话术、面试准备
+├── 项目文档/                      # EDA 分析报告等补充材料
 ├── notebooks/                    # Jupyter 探索笔记
 ├── README.md
 └── requirements.txt
